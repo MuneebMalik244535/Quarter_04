@@ -1,0 +1,4 @@
+pydantic
+typing
+google.generativeai
+dotenv
