@@ -1,2 +1,4 @@
-smtplib
 streamlit
+rich
+requests
+flask
