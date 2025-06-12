@@ -10,7 +10,7 @@ def send_email(to_email: str, name: str, date: str, time: str , reason : str):
         msg["To"] = to_email
         msg.set_content(f"Hello {name},\n I am Hafiz Muneeb Assistant Your appointment has been Schedule for {reason} on {date} at {time}.\n\nThanks. \n We will be waiting for you \n")
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-            smtp.login("aniqayan2@gmail.com", "ueik kfpw zwrb dhev")
+            smtp.login("aniqayan2@gmail.com", "Apni Email ki api key use karen")
             smtp.send_message(msg)
             st.success(f"📧 Email sent to {to_email}.")
     except Exception as e:
